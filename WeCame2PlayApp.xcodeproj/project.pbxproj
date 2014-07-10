@@ -7,6 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410899C518FB7523001F47FD /* WC2PAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410899C318FB7523001F47FD /* WC2PAboutViewController.m */; };
+		410899C618FB7523001F47FD /* WC2PAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410899C418FB7523001F47FD /* WC2PAboutViewController.xib */; };
+		410899C818FB7775001F47FD /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 410899C718FB7775001F47FD /* banner.jpg */; };
+		410899CE18FB8E81001F47FD /* dj.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899CD18FB8E81001F47FD /* dj.png */; };
+		410899D018FB8F80001F47FD /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899CF18FB8F80001F47FD /* Home.png */; };
+		410899D218FB8FE4001F47FD /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899D118FB8FE4001F47FD /* About.png */; };
+		410899D518FB91C6001F47FD /* WC2PEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410899D418FB91C6001F47FD /* WC2PEventsViewController.m */; };
+		410899D718FB9933001F47FD /* Events.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899D618FB9933001F47FD /* Events.png */; };
+		410899D918FB9BBC001F47FD /* WC2P App Load Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899D818FB9BBC001F47FD /* WC2P App Load Icon.png */; };
+		410899DB18FB9F41001F47FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899DA18FB9F41001F47FD /* Default-568h@2x.png */; };
+		410899E618FCE302001F47FD /* WC2PVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410899E518FCE302001F47FD /* WC2PVideoViewController.m */; };
+		410899E918FCE4EB001F47FD /* WC2PStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410899E818FCE4EB001F47FD /* WC2PStoreViewController.m */; };
+		410899ED18FCE5F0001F47FD /* WC2PContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410899EB18FCE5F0001F47FD /* WC2PContactViewController.m */; };
+		410899F118FCE91F001F47FD /* WC2PPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410899F018FCE91F001F47FD /* WC2PPhotosTableViewController.m */; };
+		410899F618FCEF88001F47FD /* Contact Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899F218FCEF88001F47FD /* Contact Us.png */; };
+		410899F718FCEF88001F47FD /* Photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899F318FCEF88001F47FD /* Photos.png */; };
+		410899F818FCEF88001F47FD /* Store.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899F418FCEF88001F47FD /* Store.png */; };
+		410899F918FCEF88001F47FD /* Videos.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899F518FCEF88001F47FD /* Videos.png */; };
+		410899FB18FF4B04001F47FD /* list button.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899FA18FF4B04001F47FD /* list button.png */; };
+		410899FD18FF4C47001F47FD /* bullets.png in Resources */ = {isa = PBXBuildFile; fileRef = 410899FC18FF4C47001F47FD /* bullets.png */; };
+		41089A0018FF4DD6001F47FD /* WC2PDJShareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410899FF18FF4DD6001F47FD /* WC2PDJShareTableViewController.m */; };
+		41089A0418FF74BE001F47FD /* ShareHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41089A0318FF74BE001F47FD /* ShareHeaderView.xib */; };
+		41089A081900267F001F47FD /* WC2PDJSocialMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41089A061900267F001F47FD /* WC2PDJSocialMediaViewController.m */; };
+		41089A091900267F001F47FD /* WC2PDJSocialMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41089A071900267F001F47FD /* WC2PDJSocialMediaViewController.xib */; };
+		41089A0B190027EF001F47FD /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 41089A0A190027EF001F47FD /* previous.png */; };
+		41089A0F1900BA7B001F47FD /* back-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 41089A0E1900BA7B001F47FD /* back-32.png */; };
+		41089A131900C65C001F47FD /* dj upd image.png in Resources */ = {isa = PBXBuildFile; fileRef = 41089A101900C65C001F47FD /* dj upd image.png */; };
+		41089A141900C65C001F47FD /* dj freeze image.png in Resources */ = {isa = PBXBuildFile; fileRef = 41089A111900C65C001F47FD /* dj freeze image.png */; };
+		41089A151900C65C001F47FD /* dj ie image.png in Resources */ = {isa = PBXBuildFile; fileRef = 41089A121900C65C001F47FD /* dj ie image.png */; };
+		41089A181900FB4B001F47FD /* WC2PURLs.m in Sources */ = {isa = PBXBuildFile; fileRef = 41089A171900FB4B001F47FD /* WC2PURLs.m */; };
+		41089A1A1901DD5C001F47FD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41089A191901DD5C001F47FD /* MessageUI.framework */; };
+		412AC970191B344600E73372 /* WC2P App BackGround Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 412AC96F191B344600E73372 /* WC2P App BackGround Image.png */; };
+		412AC974191B347900E73372 /* dj freeze button.png in Resources */ = {isa = PBXBuildFile; fileRef = 412AC971191B347900E73372 /* dj freeze button.png */; };
+		412AC975191B347900E73372 /* dj ie button.png in Resources */ = {isa = PBXBuildFile; fileRef = 412AC972191B347900E73372 /* dj ie button.png */; };
+		412AC976191B347900E73372 /* dj upd button.png in Resources */ = {isa = PBXBuildFile; fileRef = 412AC973191B347900E73372 /* dj upd button.png */; };
+		412AC97A191B3E4400E73372 /* WC2PPhotosViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412AC978191B3E4400E73372 /* WC2PPhotosViewViewController.m */; };
+		412AC97B191B3E4400E73372 /* WC2PPhotosViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412AC979191B3E4400E73372 /* WC2PPhotosViewViewController.xib */; };
+		412AC97E191B44AF00E73372 /* WC2PPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 412AC97D191B44AF00E73372 /* WC2PPhotos.m */; };
 		41583E7618F3727F0055B82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41583E7518F3727F0055B82A /* Foundation.framework */; };
 		41583E7818F3727F0055B82A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41583E7718F3727F0055B82A /* CoreGraphics.framework */; };
 		41583E7A18F3727F0055B82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41583E7918F3727F0055B82A /* UIKit.framework */; };
@@ -19,6 +57,20 @@
 		41583E9118F3727F0055B82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41583E7918F3727F0055B82A /* UIKit.framework */; };
 		41583E9918F3727F0055B82A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41583E9718F3727F0055B82A /* InfoPlist.strings */; };
 		41583E9B18F3727F0055B82A /* WeCame2PlayAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41583E9A18F3727F0055B82A /* WeCame2PlayAppTests.m */; };
+		41583EA718F3733D0055B82A /* WC2PHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41583EA518F3733D0055B82A /* WC2PHomeViewController.m */; };
+		41583EA818F3733D0055B82A /* WC2PHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41583EA618F3733D0055B82A /* WC2PHomeViewController.xib */; };
+		41583EAC18F385390055B82A /* WC2PDJsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41583EAA18F385390055B82A /* WC2PDJsViewController.m */; };
+		41583EAD18F385390055B82A /* WC2PDJsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41583EAB18F385390055B82A /* WC2PDJsViewController.xib */; };
+		41583EB118F3875F0055B82A /* freeze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41583EAE18F3875F0055B82A /* freeze.jpg */; };
+		41583EB218F3875F0055B82A /* IE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41583EAF18F3875F0055B82A /* IE.jpg */; };
+		41583EB318F3875F0055B82A /* upd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41583EB018F3875F0055B82A /* upd.jpg */; };
+		41583EB518F393CA0055B82A /* IE Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41583EB418F393CA0055B82A /* IE Button.jpg */; };
+		41583EB718F3957F0055B82A /* Freeze Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41583EB618F3957F0055B82A /* Freeze Button.jpg */; };
+		41583EB918F3971D0055B82A /* UPD Button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41583EB818F3971D0055B82A /* UPD Button.jpg */; };
+		41583EBB18F39E580055B82A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 41583EBA18F39E580055B82A /* Icon.png */; };
+		41583EBE18F3C1FC0055B82A /* WC2PDJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 41583EBD18F3C1FC0055B82A /* WC2PDJ.m */; };
+		41B49D5118F78203000A91CC /* WC2PDetailDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B49D4F18F78203000A91CC /* WC2PDetailDJViewController.m */; };
+		41B49D5218F78203000A91CC /* WC2PDetailDJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41B49D5018F78203000A91CC /* WC2PDetailDJViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +84,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		410899C218FB7523001F47FD /* WC2PAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PAboutViewController.h; sourceTree = "<group>"; };
+		410899C318FB7523001F47FD /* WC2PAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PAboutViewController.m; sourceTree = "<group>"; };
+		410899C418FB7523001F47FD /* WC2PAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC2PAboutViewController.xib; sourceTree = "<group>"; };
+		410899C718FB7775001F47FD /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		410899CD18FB8E81001F47FD /* dj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dj.png; sourceTree = "<group>"; };
+		410899CF18FB8F80001F47FD /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		410899D118FB8FE4001F47FD /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
+		410899D318FB91C6001F47FD /* WC2PEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PEventsViewController.h; sourceTree = "<group>"; };
+		410899D418FB91C6001F47FD /* WC2PEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PEventsViewController.m; sourceTree = "<group>"; };
+		410899D618FB9933001F47FD /* Events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Events.png; sourceTree = "<group>"; };
+		410899D818FB9BBC001F47FD /* WC2P App Load Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WC2P App Load Icon.png"; sourceTree = "<group>"; };
+		410899DA18FB9F41001F47FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		410899E418FCE302001F47FD /* WC2PVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PVideoViewController.h; sourceTree = "<group>"; };
+		410899E518FCE302001F47FD /* WC2PVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PVideoViewController.m; sourceTree = "<group>"; };
+		410899E718FCE4EB001F47FD /* WC2PStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PStoreViewController.h; sourceTree = "<group>"; };
+		410899E818FCE4EB001F47FD /* WC2PStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PStoreViewController.m; sourceTree = "<group>"; };
+		410899EA18FCE5F0001F47FD /* WC2PContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PContactViewController.h; sourceTree = "<group>"; };
+		410899EB18FCE5F0001F47FD /* WC2PContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PContactViewController.m; sourceTree = "<group>"; };
+		410899EF18FCE91F001F47FD /* WC2PPhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PPhotosTableViewController.h; sourceTree = "<group>"; };
+		410899F018FCE91F001F47FD /* WC2PPhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PPhotosTableViewController.m; sourceTree = "<group>"; };
+		410899F218FCEF88001F47FD /* Contact Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact Us.png"; sourceTree = "<group>"; };
+		410899F318FCEF88001F47FD /* Photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photos.png; sourceTree = "<group>"; };
+		410899F418FCEF88001F47FD /* Store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Store.png; sourceTree = "<group>"; };
+		410899F518FCEF88001F47FD /* Videos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Videos.png; sourceTree = "<group>"; };
+		410899FA18FF4B04001F47FD /* list button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list button.png"; sourceTree = "<group>"; };
+		410899FC18FF4C47001F47FD /* bullets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullets.png; sourceTree = "<group>"; };
+		410899FE18FF4DD6001F47FD /* WC2PDJShareTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PDJShareTableViewController.h; sourceTree = "<group>"; };
+		410899FF18FF4DD6001F47FD /* WC2PDJShareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PDJShareTableViewController.m; sourceTree = "<group>"; };
+		41089A0318FF74BE001F47FD /* ShareHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareHeaderView.xib; sourceTree = "<group>"; };
+		41089A051900267F001F47FD /* WC2PDJSocialMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PDJSocialMediaViewController.h; sourceTree = "<group>"; };
+		41089A061900267F001F47FD /* WC2PDJSocialMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PDJSocialMediaViewController.m; sourceTree = "<group>"; };
+		41089A071900267F001F47FD /* WC2PDJSocialMediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC2PDJSocialMediaViewController.xib; sourceTree = "<group>"; };
+		41089A0A190027EF001F47FD /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		41089A0E1900BA7B001F47FD /* back-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-32.png"; sourceTree = "<group>"; };
+		41089A101900C65C001F47FD /* dj upd image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dj upd image.png"; sourceTree = "<group>"; };
+		41089A111900C65C001F47FD /* dj freeze image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dj freeze image.png"; sourceTree = "<group>"; };
+		41089A121900C65C001F47FD /* dj ie image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dj ie image.png"; sourceTree = "<group>"; };
+		41089A161900FB4B001F47FD /* WC2PURLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PURLs.h; sourceTree = "<group>"; };
+		41089A171900FB4B001F47FD /* WC2PURLs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PURLs.m; sourceTree = "<group>"; };
+		41089A191901DD5C001F47FD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		412AC96F191B344600E73372 /* WC2P App BackGround Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WC2P App BackGround Image.png"; sourceTree = "<group>"; };
+		412AC971191B347900E73372 /* dj freeze button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dj freeze button.png"; sourceTree = "<group>"; };
+		412AC972191B347900E73372 /* dj ie button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dj ie button.png"; sourceTree = "<group>"; };
+		412AC973191B347900E73372 /* dj upd button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dj upd button.png"; sourceTree = "<group>"; };
+		412AC977191B3E4400E73372 /* WC2PPhotosViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PPhotosViewViewController.h; sourceTree = "<group>"; };
+		412AC978191B3E4400E73372 /* WC2PPhotosViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PPhotosViewViewController.m; sourceTree = "<group>"; };
+		412AC979191B3E4400E73372 /* WC2PPhotosViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC2PPhotosViewViewController.xib; sourceTree = "<group>"; };
+		412AC97C191B44AF00E73372 /* WC2PPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PPhotos.h; sourceTree = "<group>"; };
+		412AC97D191B44AF00E73372 /* WC2PPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PPhotos.m; sourceTree = "<group>"; };
 		41583E7218F3727F0055B82A /* WeCame2PlayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeCame2PlayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41583E7518F3727F0055B82A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41583E7718F3727F0055B82A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +149,24 @@
 		41583E9618F3727F0055B82A /* WeCame2PlayAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeCame2PlayAppTests-Info.plist"; sourceTree = "<group>"; };
 		41583E9818F3727F0055B82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41583E9A18F3727F0055B82A /* WeCame2PlayAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeCame2PlayAppTests.m; sourceTree = "<group>"; };
+		41583EA418F3733D0055B82A /* WC2PHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PHomeViewController.h; sourceTree = "<group>"; };
+		41583EA518F3733D0055B82A /* WC2PHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PHomeViewController.m; sourceTree = "<group>"; };
+		41583EA618F3733D0055B82A /* WC2PHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC2PHomeViewController.xib; sourceTree = "<group>"; };
+		41583EA918F385390055B82A /* WC2PDJsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PDJsViewController.h; sourceTree = "<group>"; };
+		41583EAA18F385390055B82A /* WC2PDJsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PDJsViewController.m; sourceTree = "<group>"; };
+		41583EAB18F385390055B82A /* WC2PDJsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC2PDJsViewController.xib; sourceTree = "<group>"; };
+		41583EAE18F3875F0055B82A /* freeze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = freeze.jpg; sourceTree = "<group>"; };
+		41583EAF18F3875F0055B82A /* IE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IE.jpg; sourceTree = "<group>"; };
+		41583EB018F3875F0055B82A /* upd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = upd.jpg; sourceTree = "<group>"; };
+		41583EB418F393CA0055B82A /* IE Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IE Button.jpg"; sourceTree = "<group>"; };
+		41583EB618F3957F0055B82A /* Freeze Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Freeze Button.jpg"; sourceTree = "<group>"; };
+		41583EB818F3971D0055B82A /* UPD Button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UPD Button.jpg"; sourceTree = "<group>"; };
+		41583EBA18F39E580055B82A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		41583EBC18F3C1FC0055B82A /* WC2PDJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PDJ.h; sourceTree = "<group>"; };
+		41583EBD18F3C1FC0055B82A /* WC2PDJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PDJ.m; sourceTree = "<group>"; };
+		41B49D4E18F78203000A91CC /* WC2PDetailDJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC2PDetailDJViewController.h; sourceTree = "<group>"; };
+		41B49D4F18F78203000A91CC /* WC2PDetailDJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC2PDetailDJViewController.m; sourceTree = "<group>"; };
+		41B49D5018F78203000A91CC /* WC2PDetailDJViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC2PDetailDJViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41089A1A1901DD5C001F47FD /* MessageUI.framework in Frameworks */,
 				41583E7818F3727F0055B82A /* CoreGraphics.framework in Frameworks */,
 				41583E7A18F3727F0055B82A /* UIKit.framework in Frameworks */,
 				41583E7618F3727F0055B82A /* Foundation.framework in Frameworks */,
@@ -77,6 +197,8 @@
 		41583E6918F3727F0055B82A = {
 			isa = PBXGroup;
 			children = (
+				41089A0318FF74BE001F47FD /* ShareHeaderView.xib */,
+				410899DA18FB9F41001F47FD /* Default-568h@2x.png */,
 				41583E7B18F3727F0055B82A /* WeCame2PlayApp */,
 				41583E9418F3727F0055B82A /* WeCame2PlayAppTests */,
 				41583E7418F3727F0055B82A /* Frameworks */,
@@ -96,6 +218,7 @@
 		41583E7418F3727F0055B82A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41089A191901DD5C001F47FD /* MessageUI.framework */,
 				41583E7518F3727F0055B82A /* Foundation.framework */,
 				41583E7718F3727F0055B82A /* CoreGraphics.framework */,
 				41583E7918F3727F0055B82A /* UIKit.framework */,
@@ -109,6 +232,42 @@
 			children = (
 				41583E8418F3727F0055B82A /* WC2PAppDelegate.h */,
 				41583E8518F3727F0055B82A /* WC2PAppDelegate.m */,
+				41583EA418F3733D0055B82A /* WC2PHomeViewController.h */,
+				41583EA518F3733D0055B82A /* WC2PHomeViewController.m */,
+				41583EA618F3733D0055B82A /* WC2PHomeViewController.xib */,
+				41B49D4E18F78203000A91CC /* WC2PDetailDJViewController.h */,
+				41B49D4F18F78203000A91CC /* WC2PDetailDJViewController.m */,
+				41B49D5018F78203000A91CC /* WC2PDetailDJViewController.xib */,
+				410899FE18FF4DD6001F47FD /* WC2PDJShareTableViewController.h */,
+				410899FF18FF4DD6001F47FD /* WC2PDJShareTableViewController.m */,
+				41089A051900267F001F47FD /* WC2PDJSocialMediaViewController.h */,
+				41089A061900267F001F47FD /* WC2PDJSocialMediaViewController.m */,
+				41089A071900267F001F47FD /* WC2PDJSocialMediaViewController.xib */,
+				41583EA918F385390055B82A /* WC2PDJsViewController.h */,
+				41583EAA18F385390055B82A /* WC2PDJsViewController.m */,
+				41583EAB18F385390055B82A /* WC2PDJsViewController.xib */,
+				410899C218FB7523001F47FD /* WC2PAboutViewController.h */,
+				410899C318FB7523001F47FD /* WC2PAboutViewController.m */,
+				410899C418FB7523001F47FD /* WC2PAboutViewController.xib */,
+				410899D318FB91C6001F47FD /* WC2PEventsViewController.h */,
+				410899D418FB91C6001F47FD /* WC2PEventsViewController.m */,
+				410899E418FCE302001F47FD /* WC2PVideoViewController.h */,
+				410899E518FCE302001F47FD /* WC2PVideoViewController.m */,
+				410899E718FCE4EB001F47FD /* WC2PStoreViewController.h */,
+				410899E818FCE4EB001F47FD /* WC2PStoreViewController.m */,
+				410899EA18FCE5F0001F47FD /* WC2PContactViewController.h */,
+				410899EB18FCE5F0001F47FD /* WC2PContactViewController.m */,
+				410899EF18FCE91F001F47FD /* WC2PPhotosTableViewController.h */,
+				410899F018FCE91F001F47FD /* WC2PPhotosTableViewController.m */,
+				412AC977191B3E4400E73372 /* WC2PPhotosViewViewController.h */,
+				412AC978191B3E4400E73372 /* WC2PPhotosViewViewController.m */,
+				412AC979191B3E4400E73372 /* WC2PPhotosViewViewController.xib */,
+				41583EBC18F3C1FC0055B82A /* WC2PDJ.h */,
+				41583EBD18F3C1FC0055B82A /* WC2PDJ.m */,
+				41089A161900FB4B001F47FD /* WC2PURLs.h */,
+				41089A171900FB4B001F47FD /* WC2PURLs.m */,
+				412AC97C191B44AF00E73372 /* WC2PPhotos.h */,
+				412AC97D191B44AF00E73372 /* WC2PPhotos.m */,
 				41583E8718F3727F0055B82A /* Images.xcassets */,
 				41583E7C18F3727F0055B82A /* Supporting Files */,
 			);
@@ -118,6 +277,34 @@
 		41583E7C18F3727F0055B82A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				412AC96F191B344600E73372 /* WC2P App BackGround Image.png */,
+				412AC971191B347900E73372 /* dj freeze button.png */,
+				412AC972191B347900E73372 /* dj ie button.png */,
+				412AC973191B347900E73372 /* dj upd button.png */,
+				41089A101900C65C001F47FD /* dj upd image.png */,
+				41089A111900C65C001F47FD /* dj freeze image.png */,
+				41089A121900C65C001F47FD /* dj ie image.png */,
+				41089A0E1900BA7B001F47FD /* back-32.png */,
+				41089A0A190027EF001F47FD /* previous.png */,
+				410899FC18FF4C47001F47FD /* bullets.png */,
+				410899FA18FF4B04001F47FD /* list button.png */,
+				410899F218FCEF88001F47FD /* Contact Us.png */,
+				410899F318FCEF88001F47FD /* Photos.png */,
+				410899F418FCEF88001F47FD /* Store.png */,
+				410899F518FCEF88001F47FD /* Videos.png */,
+				410899D818FB9BBC001F47FD /* WC2P App Load Icon.png */,
+				410899D618FB9933001F47FD /* Events.png */,
+				410899D118FB8FE4001F47FD /* About.png */,
+				410899CF18FB8F80001F47FD /* Home.png */,
+				410899CD18FB8E81001F47FD /* dj.png */,
+				410899C718FB7775001F47FD /* banner.jpg */,
+				41583EBA18F39E580055B82A /* Icon.png */,
+				41583EAE18F3875F0055B82A /* freeze.jpg */,
+				41583EB418F393CA0055B82A /* IE Button.jpg */,
+				41583EAF18F3875F0055B82A /* IE.jpg */,
+				41583EB618F3957F0055B82A /* Freeze Button.jpg */,
+				41583EB818F3971D0055B82A /* UPD Button.jpg */,
+				41583EB018F3875F0055B82A /* upd.jpg */,
 				41583E7D18F3727F0055B82A /* WeCame2PlayApp-Info.plist */,
 				41583E7E18F3727F0055B82A /* InfoPlist.strings */,
 				41583E8118F3727F0055B82A /* main.m */,
@@ -220,8 +407,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41089A091900267F001F47FD /* WC2PDJSocialMediaViewController.xib in Resources */,
+				410899C618FB7523001F47FD /* WC2PAboutViewController.xib in Resources */,
+				41089A0F1900BA7B001F47FD /* back-32.png in Resources */,
+				412AC975191B347900E73372 /* dj ie button.png in Resources */,
+				41583EB918F3971D0055B82A /* UPD Button.jpg in Resources */,
+				41583EB718F3957F0055B82A /* Freeze Button.jpg in Resources */,
+				410899FD18FF4C47001F47FD /* bullets.png in Resources */,
+				410899F818FCEF88001F47FD /* Store.png in Resources */,
+				41583EB318F3875F0055B82A /* upd.jpg in Resources */,
+				412AC974191B347900E73372 /* dj freeze button.png in Resources */,
+				410899F918FCEF88001F47FD /* Videos.png in Resources */,
+				410899F618FCEF88001F47FD /* Contact Us.png in Resources */,
+				410899D018FB8F80001F47FD /* Home.png in Resources */,
+				41583EB118F3875F0055B82A /* freeze.jpg in Resources */,
+				410899F718FCEF88001F47FD /* Photos.png in Resources */,
+				410899D918FB9BBC001F47FD /* WC2P App Load Icon.png in Resources */,
+				41089A151900C65C001F47FD /* dj ie image.png in Resources */,
+				41583EB218F3875F0055B82A /* IE.jpg in Resources */,
 				41583E8018F3727F0055B82A /* InfoPlist.strings in Resources */,
+				410899FB18FF4B04001F47FD /* list button.png in Resources */,
+				412AC97B191B3E4400E73372 /* WC2PPhotosViewViewController.xib in Resources */,
+				410899D218FB8FE4001F47FD /* About.png in Resources */,
+				41089A131900C65C001F47FD /* dj upd image.png in Resources */,
+				410899CE18FB8E81001F47FD /* dj.png in Resources */,
+				41089A141900C65C001F47FD /* dj freeze image.png in Resources */,
+				410899C818FB7775001F47FD /* banner.jpg in Resources */,
 				41583E8818F3727F0055B82A /* Images.xcassets in Resources */,
+				412AC970191B344600E73372 /* WC2P App BackGround Image.png in Resources */,
+				410899DB18FB9F41001F47FD /* Default-568h@2x.png in Resources */,
+				410899D718FB9933001F47FD /* Events.png in Resources */,
+				41583EAD18F385390055B82A /* WC2PDJsViewController.xib in Resources */,
+				41583EBB18F39E580055B82A /* Icon.png in Resources */,
+				41089A0418FF74BE001F47FD /* ShareHeaderView.xib in Resources */,
+				41583EB518F393CA0055B82A /* IE Button.jpg in Resources */,
+				412AC976191B347900E73372 /* dj upd button.png in Resources */,
+				41089A0B190027EF001F47FD /* previous.png in Resources */,
+				41583EA818F3733D0055B82A /* WC2PHomeViewController.xib in Resources */,
+				41B49D5218F78203000A91CC /* WC2PDetailDJViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +463,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410899D518FB91C6001F47FD /* WC2PEventsViewController.m in Sources */,
+				410899E918FCE4EB001F47FD /* WC2PStoreViewController.m in Sources */,
 				41583E8618F3727F0055B82A /* WC2PAppDelegate.m in Sources */,
+				410899E618FCE302001F47FD /* WC2PVideoViewController.m in Sources */,
+				41583EBE18F3C1FC0055B82A /* WC2PDJ.m in Sources */,
+				410899C518FB7523001F47FD /* WC2PAboutViewController.m in Sources */,
+				41089A181900FB4B001F47FD /* WC2PURLs.m in Sources */,
+				41583EA718F3733D0055B82A /* WC2PHomeViewController.m in Sources */,
+				41583EAC18F385390055B82A /* WC2PDJsViewController.m in Sources */,
+				41089A081900267F001F47FD /* WC2PDJSocialMediaViewController.m in Sources */,
+				412AC97E191B44AF00E73372 /* WC2PPhotos.m in Sources */,
+				410899ED18FCE5F0001F47FD /* WC2PContactViewController.m in Sources */,
+				41089A0018FF4DD6001F47FD /* WC2PDJShareTableViewController.m in Sources */,
+				412AC97A191B3E4400E73372 /* WC2PPhotosViewViewController.m in Sources */,
+				410899F118FCE91F001F47FD /* WC2PPhotosTableViewController.m in Sources */,
 				41583E8218F3727F0055B82A /* main.m in Sources */,
+				41B49D5118F78203000A91CC /* WC2PDetailDJViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +595,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeCame2PlayApp/WeCame2PlayApp-Prefix.pch";
 				INFOPLIST_FILE = "WeCame2PlayApp/WeCame2PlayApp-Info.plist";
@@ -370,7 +607,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeCame2PlayApp/WeCame2PlayApp-Prefix.pch";
 				INFOPLIST_FILE = "WeCame2PlayApp/WeCame2PlayApp-Info.plist";
@@ -438,6 +674,7 @@
 				41583EA018F3727F0055B82A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41583EA118F3727F0055B82A /* Build configuration list for PBXNativeTarget "WeCame2PlayAppTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +683,7 @@
 				41583EA318F3727F0055B82A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
